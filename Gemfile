@@ -12,6 +12,12 @@ gem 'therubyracer', platforms: :ruby
 
 gem 'jquery-rails'
 
+gem 'grape'
+
+gem 'rabl'
+
+gem 'json_expressions'
+
 gem 'turbolinks'
 
 gem 'jbuilder', '~> 1.2'
