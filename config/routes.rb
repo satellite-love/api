@@ -1,5 +1,7 @@
 Api::Application.routes.draw do
-  resources :satellites, only: [:index]
+  resources :satellites, only: [:index, :show]
+  resources :users, only: [:create]
+  resources :tasks, only: [:create]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
