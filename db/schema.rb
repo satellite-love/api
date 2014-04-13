@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140412121407) do
+ActiveRecord::Schema.define(version: 20140413014458) do
 
   create_table "satellites", force: true do |t|
     t.float    "latitude"
@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 20140412121407) do
     t.integer  "satellite_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "access_token"
   end
 
 end

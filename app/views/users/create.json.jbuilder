@@ -1,1 +1,1 @@
-json.user_id @user.id
+json.access_token @user.access_token
