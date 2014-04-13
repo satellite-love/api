@@ -9,7 +9,7 @@ class SatellitesController < ApplicationController
     # p tr.css("td")[0].text
     # p tr.css("td")[7].text
     #  p ""
-    end
+    #end
   end
 
   def show
