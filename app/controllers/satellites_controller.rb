@@ -13,7 +13,7 @@ class SatellitesController < ApplicationController
   end
 
   def show
-    @satellite = Satellite.find_by(name: params[:satellitename])
+    @satellite = Satellite.find_by(name: params[:SatelliteName])
     @users = @satellite.users.all
   end
 
